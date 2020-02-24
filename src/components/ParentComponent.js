@@ -20,7 +20,8 @@ class ParentComponent extends React.Component {
     //     })
     // }
 
-    //  abstract away!  
+    //  abstract away! 
+    // Abstracting setState When onChange is Triggered = commented out code
     handleChange = event => {
         this.setState({
             [event.target.name]: event.target.value
